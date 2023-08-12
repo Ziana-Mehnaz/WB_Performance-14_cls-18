@@ -1,0 +1,65 @@
+a{
+	background: yellow;
+	opacity:0.3;
+	margin-top: 5px;
+	display:inline-block;
+	border-radius: 0 10px 0 10px;
+	padding:10px;
+	border:2px solid green;
+	text-decoration: none;
+}
+a:link{
+	
+	color: green;
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	opacity:1;
+	background-color:black;
+	color:white;
+}
+a:active{
+	background-color: gray;
+}
+.list{
+	list-style-type:square;
+	list-style-position: inside;
+	margin:0;
+	padding:0;
+}
+.list2{
+	list-style-image:;
+}
+ol{
+	list-style-type:lower-greek;
+		list-style-position:outside;
+	background: light-green;
+	
+}
+li{
+	background-color:aliceblue
+		padding:
+		margin:
+}
+table{
+	width: 0%;
+	empty-cells: hide;
+}
+table,th,td{
+	border: 2px solid green ;
+	border-collapse: collapse;
+	
+}
+th{
+	height:50px;
+}
+td{
+	text-align: right;
+	height:50%;
+	vertical-align: baseline;
+}
+tr:nth-child(even)){
+	background-color: aqua;
+}
